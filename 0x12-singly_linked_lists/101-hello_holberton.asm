@@ -19,9 +19,7 @@ fmt:    db "%s", 10, 0; The printf format, "\n", '0'
    mov rax,0; or can be xor rax, rax
    call printf; Call C function
 
-
    pop rbp; restore stack
-
 
    mov rax,0; normal, no error, return value
    ret; return
